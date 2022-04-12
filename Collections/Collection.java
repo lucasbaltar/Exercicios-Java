@@ -15,14 +15,13 @@ public class Collection {
 		int x;
 		String produto;
 		
-		
+		do {
 		System.out.println("\nOpção 1: Adicionar produto.\nOpção 2: Remover produto.\nOpção 3: Atualizar produtos do estoque."
 				+ "\nOpção 4: Mostrar os produtos em estoque. \nOpção 5: Encerrar o programa...");
 		
 		System.out.println("\nDigite uma opção: ");
 		x = leia.nextInt();
 		
-		do {
 			switch (x) 
 			{
 			
